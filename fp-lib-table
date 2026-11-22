@@ -1,0 +1,7 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Shunt") (type "KiCad") (uri "${KIPRJMOD}/Shunt.pretty") (options "") (descr "Current sense shunts"))
+	(lib (name "WFCP") (type "KiCad") (uri "${KIPRJMOD}/WFCP.pretty") (options "") (descr "Vishay Dale current sense resistors"))
+	(lib (name "SRN5040") (type "KiCad") (uri "${KIPRJMOD}/SRN5040.pretty") (options "") (descr "Bourns SRN5040 power inductors"))
+	(lib (name "TPH2R70AR5") (type "KiCad") (uri "${KIPRJMOD}/TPH2R70AR5.pretty") (options "") (descr ""))
+)

@@ -1,0 +1,42 @@
+﻿シート,用途,Ref,基板1枚の位置数,現回路図Value,選定状態,メーカー,候補メーカー型番,候補パッケージ（チップはインチ）,候補値・定格,購入先,商品URL,実装・発注メモ
+DCDC,電池→12 V,U7,1,LM5017MR,候補,Texas Instruments,LM5017MRX/NOPB,SO PowerPAD-8 (DDA),100 V / 600 mA,DigiKey Japan,https://www.digikey.jp/ja/products/detail/texas-instruments/LM5017MRX-NOPB/3640677,
+DCDC,12 V出力インダクタ,L1,1,680uH,候補,Würth Elektronik,7447709681,WE-PD 12 mm角,680 µH / Isat typ 1.3 A（L低下10%）,DigiKey Japan,https://www.digikey.jp/ja/products/detail/w%C3%BCrth-elektronik/7447709681/1994062,200 mA設計。高温時の飽和と起動ピークを確認。
+DCDC,12 V出力→U7 VCC,D14,1,D,候補,Diodes Incorporated,1N4148W-7-F,SOD-123,100 V 小信号スイッチングダイオード,DigiKey Japan,https://www.digikey.jp/ja/products/detail/diodes-incorporated/1N4148W-7-F/814371,KはU7.6。出力過渡時もVCCの絶対最大13 V以内。
+DCDC,電池入力,C50,1,4.7µF,候補,KYOCERA AVX,12101C475K4Z2A,1210,4.7 µF / 100 V / X7R,DigiKey Japan,https://www.digikey.jp/ja/products/detail/kyocera-avx/12101C475K4Z2A/12317061,60 V印加時の実効容量をC51と合わせて評価。
+DCDC,電池入力バイパス,C51,1,0.47uF,候補,村田製作所,GRM31MR72A474KA35L,1206,0.47 µF / 100 V / X7R,DigiKey Japan,https://www.digikey.jp/ja/products/detail/murata-electronics/GRM31MR72A474KA35L/2548395,
+DCDC,BST–SW,C52,1,10nF,候補,村田製作所,GRM188R71H103KA01D,0603,10 nF / 50 V / X7R,DigiKey Japan,https://www.digikey.jp/ja/products/detail/murata-electronics/GRM188R71H103KA01D/587151,
+DCDC,12 V出力,C53,1,22uF,候補,村田製作所,GRM32ER71E226KE15L,1210,22 µF / 25 V / X7R,DigiKey Japan,https://www.digikey.jp/ja/products/detail/murata-electronics/GRM32ER71E226KE15L/2039040,12 V時の実効容量を確認。
+DCDC,Type III リップル生成,C54,1,3300pF,候補,村田製作所,GRM1885C1H332JA01D,0603,3.3 nF / 50 V / C0G,DigiKey Japan,https://www.digikey.jp/ja/products/detail/murata-electronics/GRM1885C1H332JA01D/2611161,
+DCDC,FBへのリップル結合,C55,1,100nF,候補,村田製作所,GRM188R71H104KA93D,0603,100 nF / 50 V / X7R,DigiKey Japan,https://www.digikey.jp/ja/products/detail/murata-electronics/GRM188R71H104KA93D/587143,
+DCDC,U7 VCC,C56,1,1uF,候補,村田製作所,GRM21BR71E105KA99L,0805,1 µF / 25 V / X7R,DigiKey Japan,https://www.digikey.jp/ja/products/detail/murata-electronics/GRM21BR71E105KA99L/2472647,
+DCDC,RON,R30,1,665k,候補,Vishay Dale,CRCW0805665KFKEA,0805,665 kΩ / 1% / 0.125 W,DigiKey Japan,https://www.digikey.jp/ja/products/detail/vishay-dale/CRCW0805665KFKEA/1175996,
+DCDC,UVLO下側,R31,1,3.98k,値変更案・保留,YAGEO,RC0603FR-074K02L,0603,4.02 kΩ / 1%,DigiKey Japan,https://www.digikey.jp/ja/products/detail/yageo/RC0603FR-074K02L/727203,現図3.98 kΩの指定3店での掲載は未確認。4.02 kΩ採用時はUVLO上昇31.70 V・下降29.70 V（抵抗公称・IC代表値）。現図は32.00/30.00 V。
+DCDC,UVLO上側,R32,1,100k,候補,YAGEO,RC0805FR-07100KL,0805,100 kΩ / 1%,DigiKey Japan,https://www.digikey.jp/ja/products/detail/yageo/RC0805FR-07100KL/727544,
+DCDC,FB上側,R33,1,8.87k,候補,YAGEO,RC0603FR-078K87L,0603,8.87 kΩ / 1%,DigiKey Japan,https://www.digikey.jp/ja/products/detail/yageo/RC0603FR-078K87L/727394,
+DCDC,FB下側,R34,1,1k,候補,YAGEO,RC0603FR-071KL,0603,1 kΩ / 1%,DigiKey Japan,https://www.digikey.jp/ja/products/detail/yageo/RC0603FR-071KL/726843,
+DCDC,リップル生成,R35,1,330k,候補,YAGEO,RC0805FR-07330KL,0805,330 kΩ / 1%,DigiKey Japan,https://www.digikey.jp/ja/products/detail/yageo/RC0805FR-07330KL/730814,
+DCDC_12Vto5V,12 V→5 V,U3,1,AP63205WU,候補,Diodes Incorporated,AP63205WU-7,TSOT-26,5 V固定 / 2 A / 1.1 MHz,DigiKey Japan,https://www.digikey.jp/ja/products/detail/diodes-incorporated/AP63205WU-7/9858424,
+DCDC_12Vto5V,5 V出力インダクタ,L2,1,4.7uH,候補,Bourns,SRP5030TA-4R7M,5.7 × 5.2 × 3.0 mm,4.7 µH / 定格4.6 A / Isat 6 A,DigiKey Japan,https://www.digikey.jp/ja/products/detail/bourns-inc/SRP5030TA-4R7M/5429759,
+DCDC_12Vto5V,12 V入力,C8,1,10uF,候補,村田製作所,GRM32ER71H106KA12L,1210,10 µF / 50 V / X7R,DigiKey Japan,https://www.digikey.jp/ja/products/detail/murata-electronics/GRM32ER71H106KA12L/2548481,
+DCDC_12Vto5V,BST–SW,C9,1,0.1uF,候補,村田製作所,GRM188R71H104KA93D,0603,100 nF / 50 V / X7R,DigiKey Japan,https://www.digikey.jp/ja/products/detail/murata-electronics/GRM188R71H104KA93D/587143,
+DCDC_12Vto5V,5 V出力,C10 C11,2,22uF,候補,村田製作所,GRM32ER71E226KE15L,1210,22 µF / 25 V / X7R,DigiKey Japan,https://www.digikey.jp/ja/products/detail/murata-electronics/GRM32ER71E226KE15L/2039040,
+GATEDRIVER,三相SPIゲートドライバ,U1,1,DRV8353FSRTAR,候補,Texas Instruments,DRV8353FSRTAR,WQFN-40 RTA + EP,SPI版・3シャントCSA,DigiKey Japan,https://www.digikey.jp/ja/products/detail/texas-instruments/DRV8353FSRTAR/13542552,搭載前に同梱ランドの割当・EP41を照合。
+GATEDRIVER,CPH–CPL,C17,1,47nF,候補,KEMET,C0805X473K1RECTU,0805,47 nF / 100 V / X7R,DigiKey Japan,https://www.digikey.jp/ja/products/detail/kemet/C0805X473K1RECTU/8650793,
+GATEDRIVER,VCP–VDRAIN / VGLS / DVDD,C18 C24 C37,3,1uF,候補,村田製作所,GRM21BR71E105KA99L,0805,1 µF / 25 V / X7R,DigiKey Japan,https://www.digikey.jp/ja/products/detail/murata-electronics/GRM21BR71E105KA99L/2472647,
+GATEDRIVER,VM / VREF バイパス,C19 C23,2,0.1uF,候補,村田製作所,GRM188R71H104KA93D,0603,100 nF / 50 V / X7R,DigiKey Japan,https://www.digikey.jp/ja/products/detail/murata-electronics/GRM188R71H104KA93D/587143,
+GATEDRIVER,VMローカルバルク,C22,1,1uF,値変更案・保留,村田製作所,GRM32ER71E226KE15L,1210,22 µF / 25 V / X7R,DigiKey Japan,https://www.digikey.jp/ja/products/detail/murata-electronics/GRM32ER71E226KE15L/2039040,現図1 µF。C19と並列でU1直近に配置する案。候補の12 V時実効値・公差・温度を含めて10 µF以上を確保できることを確認後に採用。
+GATEDRIVER,相電流ADCフィルタ,C45 C46 C47,3,2.2nF,候補,村田製作所,GRM1885C1H222JA01D,0603,2.2 nF / 50 V / C0G,DigiKey Japan,https://www.digikey.jp/ja/products/detail/murata-electronics/GRM1885C1H222JA01D/586951,
+GATEDRIVER,nFAULTプルアップ,R37,1,10k,候補,YAGEO,RC0603FR-0710KL,0603,10 kΩ / 1%,DigiKey Japan,https://www.digikey.jp/ja/products/detail/yageo/RC0603FR-0710KL/729827,
+GATEDRIVER,SDOプルアップ,R38,1,1k,候補,YAGEO,RC0603FR-071KL,0603,1 kΩ / 1%,DigiKey Japan,https://www.digikey.jp/ja/products/detail/yageo/RC0603FR-071KL/726843,
+GATEDRIVER,相電流ADCフィルタ,R39 R40 R41,3,56,候補,YAGEO,RC0603FR-0756RL,0603,56 Ω / 1%,DigiKey Japan,https://www.digikey.jp/ja/products/detail/yageo/RC0603FR-0756RL/727301,
+POWER,三相上下MOSFET,Q1 Q2 Q3 Q4 Q5 Q6,6,NMOS,予定品・ランド要修正,東芝,"TPH2R70AR5,LQ",SOP Advance(N),100 V / RDS(on) 最大2.7 mΩ @ VGS=10 V,DigiKey Japan,https://www.digikey.jp/ja/products/detail/toshiba-semiconductor-and-storage/TPH2R70AR5-LQ/27525775,現図はTO-263-2。予定品は1–3=S、4=G、5–8=D。実部品に合わせてシンボルとランドを変更。
+POWER,相電流シャント,R1 R3 R4,3,2m,候補,Bourns,CRE2512-FZ-R002E-3,2512（2端子）,2 mΩ / 1% / 3 W / ±50 ppm/°C,DigiKey Japan,https://www.digikey.jp/ja/products/detail/bourns-inc/CRE2512-FZ-R002E-3/4900067,CSAの検出配線は各電極から独立して取り出す。
+POWER,ゲート直列,R7 R8 R15 R16 R25 R26,6,0,候補,YAGEO,RC0603JR-070RL,0603,0 Ω ジャンパ,DigiKey Japan,https://www.digikey.jp/ja/products/detail/yageo/RC0603JR-070RL/726675,
+POWER,G–S放電,R9 R11 R17 R19 R27 R28,6,10k,候補,YAGEO,RC0603FR-0710KL,0603,10 kΩ / 1%,DigiKey Japan,https://www.digikey.jp/ja/products/detail/yageo/RC0603FR-0710KL/729827,
+POWER,DCリンク電解,C12 C13 C14 C15,4,330uF,候補,Panasonic Industry,EEU-FS2A331L,ラジアル φ12.5 mm / P5 mm / 高さ最大37 mm,330 µF / 100 V / 105°C / 2.38 A @ 100 kHz,DigiKey Japan,https://www.digikey.jp/ja/products/detail/panasonic-industry/EEU-FS2A331L/9597040,4個は現図全実装時。20 kHzでの許容リップルと筐体高さを確認。
+POWER,各相DCリンクバイパス,C29 C36 C44 C48 C49 C57,6,2.2uF,候補,KYOCERA AVX,12101C225KAT2A,1210,2.2 µF / 100 V / X7R,DigiKey Japan,https://www.digikey.jp/ja/products/detail/kyocera-avx/12101C225KAT2A/3081873,各相2個。公称合計13.2 µF。60 Vでの実効容量は未確定。
+POWER,DCリンクTVS,D1,1,SMCJ60A,現図品・保護設計確認,Littelfuse,SMCJ60A,SMC (DO-214AB),単方向 / VRWM 60 V / VC最大96.8 V @ 15.5 A,DigiKey Japan,https://www.digikey.jp/ja/products/detail/littelfuse-inc/SMCJ60A/762418,100 V FETまで3.2 Vの差。局所過渡・回生エネルギーを含め採用判定。
+POWER,G–Sクランプ,D4 D5 D8 D9 D11 D12,6,D_Zener,電圧未指定・評価候補,Diodes Incorporated,MMSZ5242B-7-F,SOD-123,12 V公称 / ±5%,DigiKey Japan,https://www.digikey.jp/ja/products/detail/diodes-incorporated/MMSZ5242B-7-F/814367,12 Vは候補値。通常駆動時の漏れ・過渡クランプ電圧とU1/FETの定格を確認後に選定。
+POWER,RCスナバ抵抗,R10 R12 R18 R20 R29 R36,6,R,初回DNP案,,,0805,抵抗値・パルス定格未定,,,数量はランド数。初回購入0。図面のDNP属性は未設定。
+POWER,RCスナバコンデンサ,C28 C33 C34 C35 C38 C43,6,C,初回DNP案,,,0805,容量未定 / バス過渡対応,,,数量はランド数。初回購入0。VDS波形測定後にRと組で選定。
+POWER,三相モータ出力,J2,1,MR60,指定3店の販売ページ未確認,AMASS,MR60（形式未確定）,取付方式未定,3極 U/V/W,,,基板取付か配線取付か、嵌合相手・オスメスを決めてから手配。

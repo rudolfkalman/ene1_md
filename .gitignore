@@ -1,0 +1,30 @@
+# KiCad local state, caches, and backups
+.history/
+*-backups/
+/_restore_backup_*/
+*.lck
+*.autosave
+_autosave-*
+\#auto_saved_files\#
+fp-info-cache
+*-cache.lib
+*-bak
+*.bak
+*.kicad_prl
+
+# Fabrication and CAD exports
+production/
+*.gbr
+*.grl
+*.gbrjob
+*.drl
+*.zip
+*.net
+*.step
+!**/*.3dshapes/*.step
+
+# IAR Embedded Workbench build output and local workspace settings
+/fw/EWARM/fw/Exe/
+/fw/EWARM/fw/Obj/
+/fw/EWARM/fw/List/
+/fw/EWARM/settings/
