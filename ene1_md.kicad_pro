@@ -214,7 +214,6 @@
       ],
       "track_widths": [
         0.0,
-        0.1,
         0.5,
         1.0
       ],
@@ -855,7 +854,7 @@
         "uuid": "0ee349df-6add-4e50-89fd-464939bc0755"
       }
     ],
-    "used_designators": "#FLG5,#FLG9-12,#PWR1-8,#PWR10,#PWR13,#PWR16,#PWR20,#PWR25,#PWR28,#PWR32-34,#PWR36,#PWR39-41,#PWR44,#PWR46,#PWR51-55,#PWR60,#PWR62-67,#PWR71,#PWR73,#PWR76,#PWR80,#PWR84-90,C1-16,C20-21,C25-36,C39-42,C50-56,D2-12,D14,FB1,J1-3,J5,J9,JP1,L1,PWR1,Q1-6,R1-36,ST\\-LINK1,SW1,TP31-32,U2,U4,U7,U9,Y1",
+    "used_designators": "#FLG5,#FLG9-12,#PWR1-8,#PWR10,#PWR13,#PWR16,#PWR20,#PWR25,#PWR28,#PWR32-34,#PWR36,#PWR39-41,#PWR44,#PWR46,#PWR51-55,#PWR60,#PWR62-67,#PWR71,#PWR73,#PWR76,#PWR80,#PWR84-90,C1-16,C20-21,C25-36,C39-42,C50-56,D2-12,D14,FB1,J1-3,J5,J9,JP1,L1,PWR1,Q1-6,R1-36,ST\\-LINK1,SW1,U2,U4,U7,U9,Y1",
     "variants": []
   },
   "sheets": [
@@ -864,32 +863,16 @@
       "ルート"
     ],
     [
+      "2df709a8-d619-45d7-9a57-d7c9c3fc2729",
+      "POWER_SUPPLY"
+    ],
+    [
       "38cb72aa-cf07-4618-b639-2414345d5335",
       "MCU"
     ],
     [
-      "2e63e686-863d-428e-80c5-00e7e5fd52ea",
-      "CAN"
-    ],
-    [
-      "2df709a8-d619-45d7-9a57-d7c9c3fc2729",
-      "DCDC_48Vto12V"
-    ],
-    [
-      "20f0978b-77da-43a4-ac79-102e43ed4a69",
-      "DCDC_12Vto5V"
-    ],
-    [
-      "9b226d68-3ca3-4dc4-ad73-78321687876a",
-      "REGULATOR"
-    ],
-    [
       "0a67e02b-39f9-4227-b947-b65d5e3b5ffa",
-      "GATE DRIVE"
-    ],
-    [
-      "b17ea290-aa8f-44b4-bd09-cb1c5d42034f",
-      "POWER"
+      "GATEDRIVER"
     ]
   ],
   "text_variables": {},
