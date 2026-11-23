@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -76,7 +76,44 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|105160895|59544800|33ecd855-a616-41ad-9a04-f6927fe57516|f571394a-b2b5-4357-8a33-811bccc2aa6d",
+          ""
+        ],
+        [
+          "hole_clearance|105160895|59544800|5e277394-ab64-4577-b182-eebd0e713388|f571394a-b2b5-4357-8a33-811bccc2aa6d",
+          ""
+        ],
+        [
+          "hole_clearance|105160895|65644800|48d54e1a-d9df-4218-bea0-db14ee1fce6c|c0543a4b-7c4b-4181-a3b9-0ebb32ef721e",
+          ""
+        ],
+        [
+          "hole_clearance|105160895|65644800|87406c51-0710-430d-9106-1b161558ca8c|c0543a4b-7c4b-4181-a3b9-0ebb32ef721e",
+          ""
+        ],
+        [
+          "shorting_items|105585895|60044800|4de70eef-4b45-41de-b981-71b348ddc174|d02730f6-697a-4181-a196-dafbc11dae11",
+          ""
+        ],
+        [
+          "shorting_items|105585895|64844800|4dd92d7c-5d49-474d-a985-258eacb5bda0|5c67cb52-2d5b-4d79-8abb-2a879540dbec",
+          ""
+        ],
+        [
+          "solder_mask_bridge|105585895|60044800|4de70eef-4b45-41de-b981-71b348ddc174|d02730f6-697a-4181-a196-dafbc11dae11",
+          ""
+        ],
+        [
+          "solder_mask_bridge|105585895|64844800|5c67cb52-2d5b-4d79-8abb-2a879540dbec|4dd92d7c-5d49-474d-a985-258eacb5bda0",
+          ""
+        ],
+        [
+          "unconnected_items|111861773|97363604|F.Cu|4|42125664-9fa4-47b7-b6b0-7a5683b9d54d|9f741453-e4fe-437b-b16e-de1560a4ad5d",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -158,10 +195,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -214,6 +251,7 @@
       ],
       "track_widths": [
         0.0,
+        0.1,
         0.5,
         1.0
       ],
@@ -854,7 +892,7 @@
         "uuid": "0ee349df-6add-4e50-89fd-464939bc0755"
       }
     ],
-    "used_designators": "#FLG5,#FLG9-12,#PWR1-8,#PWR10,#PWR13,#PWR16,#PWR20,#PWR25,#PWR28,#PWR32-34,#PWR36,#PWR39-41,#PWR44,#PWR46,#PWR51-55,#PWR60,#PWR62-67,#PWR71,#PWR73,#PWR76,#PWR80,#PWR84-90,C1-16,C20-21,C25-36,C39-42,C50-56,D2-12,D14,FB1,J1-3,J5,J9,JP1,L1,PWR1,Q1-6,R1-36,ST\\-LINK1,SW1,U2,U4,U7,U9,Y1",
+    "used_designators": "#FLG5,#FLG9-12,#PWR1-11,#PWR13,#PWR16,#PWR20,#PWR25,#PWR28,#PWR32-34,#PWR36,#PWR39-41,#PWR44,#PWR46,#PWR51-55,#PWR60,#PWR62-67,#PWR71,#PWR73,#PWR76,#PWR80,#PWR84-90,C1-16,C20-21,C25-36,C39-42,C50-56,D2-12,D14,FB1,J1-3,J5,J9,JP1,L1,PWR1,Q1-6,R1-36,ST\\-LINK1,SW1,U2,U4,U7,U9,Y1",
     "variants": []
   },
   "sheets": [
@@ -863,16 +901,32 @@
       "ルート"
     ],
     [
-      "2df709a8-d619-45d7-9a57-d7c9c3fc2729",
-      "POWER_SUPPLY"
-    ],
-    [
       "38cb72aa-cf07-4618-b639-2414345d5335",
       "MCU"
     ],
     [
+      "2e63e686-863d-428e-80c5-00e7e5fd52ea",
+      "CAN"
+    ],
+    [
+      "2df709a8-d619-45d7-9a57-d7c9c3fc2729",
+      "DCDC_48Vto12V"
+    ],
+    [
+      "20f0978b-77da-43a4-ac79-102e43ed4a69",
+      "DCDC_12Vto5V"
+    ],
+    [
+      "9b226d68-3ca3-4dc4-ad73-78321687876a",
+      "REGULATOR"
+    ],
+    [
       "0a67e02b-39f9-4227-b947-b65d5e3b5ffa",
-      "GATEDRIVER"
+      "GATE DRIVE"
+    ],
+    [
+      "b17ea290-aa8f-44b4-bd09-cb1c5d42034f",
+      "POWER"
     ]
   ],
   "text_variables": {},
