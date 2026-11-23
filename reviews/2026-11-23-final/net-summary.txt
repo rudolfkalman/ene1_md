@@ -1,0 +1,348 @@
+C15 330uF Capacitor_THT:CP_Radial_D12.5mm_P5.00mm {'names': '/', 'tstamps': '/'}
+  2()=GND; 1()=Net-(J1-Pin_1)
+C16 0.1uF Capacitor_SMD:C_0603_1608Metric {'names': '/', 'tstamps': '/'}
+  1()=/3.3VA; 2()=GND
+C30 10nF Capacitor_SMD:C_0603_1608Metric {'names': '/', 'tstamps': '/'}
+  2()=/3.3VA; 1()=GND
+C31 1uF Capacitor_SMD:C_0603_1608Metric {'names': '/', 'tstamps': '/'}
+  2()=/3.3VA; 1()=GND
+C32 0.1uF Capacitor_SMD:C_0603_1608Metric {'names': '/', 'tstamps': '/'}
+  2()=/3.3VA; 1()=GND
+C58 0.1uF Capacitor_SMD:C_0603_1608Metric {'names': '/', 'tstamps': '/'}
+  1()=/MCU/ADC2_IN12; 2()=GND
+FB1 FerriteBead Inductor_SMD:L_0603_1608Metric {'names': '/', 'tstamps': '/'}
+  1()=+3V3; 2()=/3.3VA
+H1 MountingHole MountingHole:MountingHole_3.2mm_M3 {'names': '/', 'tstamps': '/'}
+  
+H2 MountingHole MountingHole:MountingHole_3.2mm_M3 {'names': '/', 'tstamps': '/'}
+  
+H3 MountingHole MountingHole:MountingHole_3.2mm_M3 {'names': '/', 'tstamps': '/'}
+  
+H4 MountingHole MountingHole:MountingHole_3.2mm_M3 {'names': '/', 'tstamps': '/'}
+  
+J1 XT60+ Connector_Wire:SolderWirePad_1x01_SMD_5x10mm {'names': '/', 'tstamps': '/'}
+  1(Pin_1_1)=Net-(J1-Pin_1)
+J4 Conn_01x06_Pin Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical {'names': '/', 'tstamps': '/'}
+  1(Pin_1_1)=+5V; 2(Pin_2_2)=/MCU/ADC1_IN4; 4(Pin_4_4)=/MCU/TIM2_CH1; 5(Pin_5_5)=/MCU/TIM2_CH2; 3(Pin_3_3)=/MCU/TIM2_CH3; 6(Pin_6_6)=GND
+J5 Accelerator Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical {'names': '/', 'tstamps': '/'}
+  1(Pin_1_1)=+3V3; 2(Pin_2_2)=/MCU/ADC2_IN14; 3(Pin_3_3)=GND
+J6 XT60- Connector_Wire:SolderWirePad_1x01_SMD_5x10mm {'names': '/', 'tstamps': '/'}
+  1(Pin_1_1)=GND
+R42 100k Resistor_SMD:R_0805_2012Metric {'names': '/', 'tstamps': '/'}
+  1()=+3V3; 2()=/MCU/ADC1_IN4
+R43 1k Resistor_SMD:R_0603_1608Metric {'names': '/', 'tstamps': '/'}
+  1()=+3V3; 2()=/MCU/TIM2_CH3
+R44 1k Resistor_SMD:R_0603_1608Metric {'names': '/', 'tstamps': '/'}
+  1()=+3V3; 2()=/MCU/TIM2_CH1
+R45 1k Resistor_SMD:R_0603_1608Metric {'names': '/', 'tstamps': '/'}
+  1()=+3V3; 2()=/MCU/TIM2_CH2
+R46 1m Shunt:R_Stackpole_CSNL2512FT1L00 {'names': '/', 'tstamps': '/'}
+  1()=+BATT; 2()=Net-(J1-Pin_1)
+R47 330k Resistor_SMD:R_0805_2012Metric {'names': '/', 'tstamps': '/'}
+  2()=/MCU/ADC2_IN12; 1()=Net-(J1-Pin_1)
+R48 10k Resistor_SMD:R_0603_1608Metric {'names': '/', 'tstamps': '/'}
+  1()=/MCU/ADC2_IN12; 2()=GND
+R49 22k Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal {'names': '/', 'tstamps': '/'}
+  1()=+BATT; 2()=GND
+TP1 TestPoint TestPoint:TestPoint_Pad_D1.5mm {'names': '/', 'tstamps': '/'}
+  1(1_1)=+BATT
+TP2 TestPoint TestPoint:TestPoint_Pad_D1.5mm {'names': '/', 'tstamps': '/'}
+  1(1_1)=+12V
+TP3 TestPoint TestPoint:TestPoint_Pad_D1.5mm {'names': '/', 'tstamps': '/'}
+  1(1_1)=+5V
+TP4 TestPoint TestPoint:TestPoint_Pad_D1.5mm {'names': '/', 'tstamps': '/'}
+  1(1_1)=+3V3
+TP5 TestPoint TestPoint:TestPoint_Pad_D1.5mm {'names': '/', 'tstamps': '/'}
+  1(1_1)=GND
+TP28 TestPoint TestPoint:TestPoint_Pad_D1.5mm {'names': '/', 'tstamps': '/'}
+  1(1_1)=/MCU/ADC1_IN11
+TP29 TestPoint TestPoint:TestPoint_Pad_D1.5mm {'names': '/', 'tstamps': '/'}
+  1(1_1)=/MCU/ADC2_IN12
+TP31 TestPoint TestPoint:TestPoint_Pad_D1.5mm {'names': '/', 'tstamps': '/'}
+  1(1_1)=GND
+TP32 TestPoint TestPoint:TestPoint_Pad_D1.5mm {'names': '/', 'tstamps': '/'}
+  1(1_1)=GND
+U5 INA241A2xDGK Package_SO:VSSOP-8_3x3mm_P0.65mm {'names': '/', 'tstamps': '/'}
+  1(-_1)=+BATT; 6(V+_6)=/3.3VA; 7(REF1_7)=/3.3VA; 5()=/MCU/ADC1_IN11; 2(GND_2)=GND; 3(REF2_3)=GND; 4(GND_4)=GND; 8(+_8)=Net-(J1-Pin_1)
+C1 0.1uF Capacitor_SMD:C_0603_1608Metric {'names': '/MCU/', 'tstamps': '/38cb72aa-cf07-4618-b639-2414345d5335/'}
+  2()=+3V3; 1()=GND
+C2 0.1uF Capacitor_SMD:C_0603_1608Metric {'names': '/MCU/', 'tstamps': '/38cb72aa-cf07-4618-b639-2414345d5335/'}
+  2()=+3V3; 1()=GND
+C3 0.1uF Capacitor_SMD:C_0603_1608Metric {'names': '/MCU/', 'tstamps': '/38cb72aa-cf07-4618-b639-2414345d5335/'}
+  2()=+3V3; 1()=GND
+C4 0.1uF Capacitor_SMD:C_0603_1608Metric {'names': '/MCU/', 'tstamps': '/38cb72aa-cf07-4618-b639-2414345d5335/'}
+  2()=+3V3; 1()=GND
+C5 4.7uF Capacitor_SMD:C_0603_1608Metric {'names': '/MCU/', 'tstamps': '/38cb72aa-cf07-4618-b639-2414345d5335/'}
+  2()=+3V3; 1()=GND
+C6 0.1uF Capacitor_SMD:C_0603_1608Metric {'names': '/MCU/', 'tstamps': '/38cb72aa-cf07-4618-b639-2414345d5335/'}
+  2()=/3.3VA; 1()=GND
+C7 1uF Capacitor_SMD:C_0603_1608Metric {'names': '/MCU/', 'tstamps': '/38cb72aa-cf07-4618-b639-2414345d5335/'}
+  2()=/3.3VA; 1()=GND
+C20 0.1uF Capacitor_SMD:C_0603_1608Metric {'names': '/MCU/', 'tstamps': '/38cb72aa-cf07-4618-b639-2414345d5335/'}
+  1()=/MCU/NRST; 2()=GND
+C21 18pF Capacitor_SMD:C_0603_1608Metric {'names': '/MCU/', 'tstamps': '/38cb72aa-cf07-4618-b639-2414345d5335/'}
+  2()=GND; 1()=Net-(U2-PF0)
+C25 18pF Capacitor_SMD:C_0603_1608Metric {'names': '/MCU/', 'tstamps': '/38cb72aa-cf07-4618-b639-2414345d5335/'}
+  1()=GND; 2()=Net-(C25-Pad2)
+D3 LED LED_SMD:LED_0603_1608Metric {'names': '/MCU/', 'tstamps': '/38cb72aa-cf07-4618-b639-2414345d5335/'}
+  2(A_2)=+3V3; 1(K_1)=Net-(D3-K)
+J3 USB_C_Receptacle_USB2.0_16P Connector_USB:USB_C_Receptacle_GCT_USB4110 {'names': '/MCU/', 'tstamps': '/38cb72aa-cf07-4618-b639-2414345d5335/'}
+  A1(GND_A1)=GND; A12(GND_A12)=GND; B1(GND_B1)=GND; B12(GND_B12)=GND; SH(SHIELD_SH)=GND; A5(CC1_A5)=Net-(J3-CC1); B5(CC2_B5)=Net-(J3-CC2); A7(D-_A7)=Net-(U2-PA11); B7(D-_B7)=Net-(U2-PA11); A6(D+_A6)=Net-(U2-PA12); B6(D+_B6)=Net-(U2-PA12); A8(SBU1_A8)=unconnected-(J3-SBU1-PadA8); B8(SBU2_B8)=unconnected-(J3-SBU2-PadB8); A4(VBUS_A4)=unconnected-(J3-VBUS-PadA4); A9(VBUS_A9)=unconnected-(J3-VBUS-PadA4); B4(VBUS_B4)=unconnected-(J3-VBUS-PadA4); B9(VBUS_B9)=unconnected-(J3-VBUS-PadA4)
+R2 10k Resistor_SMD:R_0603_1608Metric {'names': '/MCU/', 'tstamps': '/38cb72aa-cf07-4618-b639-2414345d5335/'}
+  1()=+3V3; 2()=/MCU/NRST
+R5 0 Resistor_SMD:R_0603_1608Metric {'names': '/MCU/', 'tstamps': '/38cb72aa-cf07-4618-b639-2414345d5335/'}
+  2()=Net-(C25-Pad2); 1()=Net-(U2-PF1)
+R6 470 Resistor_SMD:R_0603_1608Metric {'names': '/MCU/', 'tstamps': '/38cb72aa-cf07-4618-b639-2414345d5335/'}
+  2()=GND; 1()=Net-(D3-K)
+R21 5.1k Resistor_SMD:R_0603_1608Metric {'names': '/MCU/', 'tstamps': '/38cb72aa-cf07-4618-b639-2414345d5335/'}
+  2()=GND; 1()=Net-(J3-CC1)
+R22 5.1k Resistor_SMD:R_0603_1608Metric {'names': '/MCU/', 'tstamps': '/38cb72aa-cf07-4618-b639-2414345d5335/'}
+  2()=GND; 1()=Net-(J3-CC2)
+ST-LINK1 SWD Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical {'names': '/MCU/', 'tstamps': '/38cb72aa-cf07-4618-b639-2414345d5335/'}
+  1(Pin_1_1)=+3V3; 4(Pin_4_4)=/MCU/NRST; 3(Pin_3_3)=/MCU/SWCLK; 2(Pin_2_2)=/MCU/SWDIO; 5(Pin_5_5)=GND
+SW1 SW_Push Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS {'names': '/MCU/', 'tstamps': '/38cb72aa-cf07-4618-b639-2414345d5335/'}
+  1(1_1)=/MCU/NRST; 2(2_2)=GND
+TP18 TestPoint TestPoint:TestPoint_Pad_D1.5mm {'names': '/MCU/', 'tstamps': '/38cb72aa-cf07-4618-b639-2414345d5335/'}
+  1(1_1)=/GATE DRIVE/SCLK
+TP19 TestPoint TestPoint:TestPoint_Pad_D1.5mm {'names': '/MCU/', 'tstamps': '/38cb72aa-cf07-4618-b639-2414345d5335/'}
+  1(1_1)=/GATE DRIVE/SDO
+TP20 TestPoint TestPoint:TestPoint_Pad_D1.5mm {'names': '/MCU/', 'tstamps': '/38cb72aa-cf07-4618-b639-2414345d5335/'}
+  1(1_1)=/GATE DRIVE/nSCS
+TP21 TestPoint TestPoint:TestPoint_Pad_D1.5mm {'names': '/MCU/', 'tstamps': '/38cb72aa-cf07-4618-b639-2414345d5335/'}
+  1(1_1)=/GATE DRIVE/SDI
+U2 STM32G431CBTx Package_QFP:LQFP-48_7x7mm_P0.5mm {'names': '/MCU/', 'tstamps': '/38cb72aa-cf07-4618-b639-2414345d5335/'}
+  1(VBAT_1)=+3V3; 24(VDD_24)=+3V3; 36(VDD_36)=+3V3; 48(VDD_48)=+3V3; 20(VREF+_20)=/3.3VA; 21(VDDA_21)=/3.3VA; 45(PB8_45)=/CAN/CAN_Rx; 46(PB9_46)=/CAN/CAN_Tx; 27(PB13_27)=/GATE DRIVE/ENABLE; 30(PA8_30)=/GATE DRIVE/INHA; 31(PA9_31)=/GATE DRIVE/INHB; 32(PA10_32)=/GATE DRIVE/INHC; 2(PC13_2)=/GATE DRIVE/INLA; 16(PB0_16)=/GATE DRIVE/INLB; 17(PB1_17)=/GATE DRIVE/INLC; 13(PA5_13)=/GATE DRIVE/SCLK; 42(PB5_42)=/GATE DRIVE/SDI; 14(PA6_14)=/GATE DRIVE/SDO; 8(PA0_8)=/GATE DRIVE/SOA; 10(PA2_10)=/GATE DRIVE/SOB; 9(PA1_9)=/GATE DRIVE/SOB; 15(PA7_15)=/GATE DRIVE/SOC; 12(PA4_12)=/GATE DRIVE/nFAULT; 41(PB4_41)=/GATE DRIVE/nSCS; 11(PA3_11)=/MCU/ADC1_IN4; 26(PB12_26)=/MCU/ADC1_IN11; 18(PB2_18)=/MCU/ADC2_IN12; 25(PB11_25)=/MCU/ADC2_IN14; 7(PG10_7)=/MCU/NRST; 38(PA14_38)=/MCU/SWCLK; 37(PA13_37)=/MCU/SWDIO; 39(PA15_39)=/MCU/TIM2_CH1; 40(PB3_40)=/MCU/TIM2_CH2; 22(PB10_22)=/MCU/TIM2_CH3; 19(VSSA_19)=GND; 23(VSS_23)=GND; 35(VSS_35)=GND; 47(VSS_47)=GND; 33(PA11_33)=Net-(U2-PA11); 34(PA12_34)=Net-(U2-PA12); 5(PF0_5)=Net-(U2-PF0); 6(PF1_6)=Net-(U2-PF1); 43(PB6_43)=unconnected-(U2-PB6-Pad43); 44(PB7_44)=unconnected-(U2-PB7-Pad44); 28(PB14_28)=unconnected-(U2-PB14-Pad28); 29(PB15_29)=unconnected-(U2-PB15-Pad29); 3(PC14_3)=unconnected-(U2-PC14-Pad3); 4(PC15_4)=unconnected-(U2-PC15-Pad4)
+Y1 Crystal Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm {'names': '/MCU/', 'tstamps': '/38cb72aa-cf07-4618-b639-2414345d5335/'}
+  1(1_1)=Net-(C25-Pad2); 2(2_2)=Net-(U2-PF0)
+C26 0.1uF Capacitor_SMD:C_0603_1608Metric {'names': '/CAN/', 'tstamps': '/2e63e686-863d-428e-80c5-00e7e5fd52ea/'}
+  1()=+3V3; 2()=GND
+C27 4.7nF Capacitor_SMD:C_0603_1608Metric {'names': '/CAN/', 'tstamps': '/2e63e686-863d-428e-80c5-00e7e5fd52ea/'}
+  2()=Net-(C27-Pad2); 1()=Net-(U9-CANG)
+J9 CAN Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical {'names': '/CAN/', 'tstamps': '/2e63e686-863d-428e-80c5-00e7e5fd52ea/'}
+  2(Pin_2_2)=/CAN/CAN_H; 1(Pin_1_1)=/CAN/CAN_L
+JP1 Jumper_2_Open Resistor_SMD:R_0603_1608Metric {'names': '/CAN/', 'tstamps': '/2e63e686-863d-428e-80c5-00e7e5fd52ea/'}
+  2(B_2)=/CAN/CAN_H; 1(A_1)=Net-(JP1-A)
+R23 60 Resistor_SMD:R_0603_1608Metric {'names': '/CAN/', 'tstamps': '/2e63e686-863d-428e-80c5-00e7e5fd52ea/'}
+  1()=Net-(C27-Pad2); 2()=Net-(JP1-A)
+R24 60 Resistor_SMD:R_0603_1608Metric {'names': '/CAN/', 'tstamps': '/2e63e686-863d-428e-80c5-00e7e5fd52ea/'}
+  2()=/CAN/CAN_L; 1()=Net-(C27-Pad2)
+U9 CTM1051AMG CTM1051AMG:ZLG_CTM1051AMG_12.8x10.2mm_P2.54mm {'names': '/CAN/', 'tstamps': '/2e63e686-863d-428e-80c5-00e7e5fd52ea/'}
+  4(VCC_4)=+3V3; 7(CANH_7)=/CAN/CAN_H; 6(CANL_6)=/CAN/CAN_L; 1(RXD_1)=/CAN/CAN_Rx; 2(TXD_2)=/CAN/CAN_Tx; 3(GND_3)=GND; 5(CANG_5)=Net-(U9-CANG)
+C50 4.7µF Capacitor_SMD:C_1210_3225Metric {'names': '/DCDC_48Vto12V/', 'tstamps': '/2df709a8-d619-45d7-9a57-d7c9c3fc2729/'}
+  1()=+BATT; 2()=GND
+C51 0.47uF Capacitor_SMD:C_1206_3216Metric {'names': '/DCDC_48Vto12V/', 'tstamps': '/2df709a8-d619-45d7-9a57-d7c9c3fc2729/'}
+  1()=+BATT; 2()=GND
+C52 10nF Capacitor_SMD:C_0603_1608Metric {'names': '/DCDC_48Vto12V/', 'tstamps': '/2df709a8-d619-45d7-9a57-d7c9c3fc2729/'}
+  1()=Net-(U7-BST); 2()=Net-(U7-SW)
+C53 22uF Capacitor_SMD:C_1210_3225Metric {'names': '/DCDC_48Vto12V/', 'tstamps': '/2df709a8-d619-45d7-9a57-d7c9c3fc2729/'}
+  1()=+12V; 2()=GND
+C54 3300pF Capacitor_SMD:C_0603_1608Metric {'names': '/DCDC_48Vto12V/', 'tstamps': '/2df709a8-d619-45d7-9a57-d7c9c3fc2729/'}
+  2()=+12V; 1()=Net-(C54-Pad1)
+C55 100nF Capacitor_SMD:C_0603_1608Metric {'names': '/DCDC_48Vto12V/', 'tstamps': '/2df709a8-d619-45d7-9a57-d7c9c3fc2729/'}
+  2()=Net-(C54-Pad1); 1()=Net-(U7-FB)
+C56 1uF Capacitor_SMD:C_0603_1608Metric {'names': '/DCDC_48Vto12V/', 'tstamps': '/2df709a8-d619-45d7-9a57-d7c9c3fc2729/'}
+  2()=GND; 1()=Net-(D14-K)
+D14 D PCM_JLCPCB:D_DO-214AC(SMA) {'names': '/DCDC_48Vto12V/', 'tstamps': '/2df709a8-d619-45d7-9a57-d7c9c3fc2729/'}
+  2(A_2)=+12V; 1(K_1)=Net-(D14-K)
+L1 680uH Inductor_SMD_Wurth:L_Wurth_WE-PD-1210 {'names': '/DCDC_48Vto12V/', 'tstamps': '/2df709a8-d619-45d7-9a57-d7c9c3fc2729/'}
+  2(2_2)=+12V; 1(1_1)=Net-(U7-SW)
+R30 665k Resistor_SMD:R_0805_2012Metric {'names': '/DCDC_48Vto12V/', 'tstamps': '/2df709a8-d619-45d7-9a57-d7c9c3fc2729/'}
+  1()=+BATT; 2()=Net-(U7-RON)
+R31 4.02k Resistor_SMD:R_0603_1608Metric {'names': '/DCDC_48Vto12V/', 'tstamps': '/2df709a8-d619-45d7-9a57-d7c9c3fc2729/'}
+  2()=GND; 1()=Net-(U7-ULVO)
+R32 100k Resistor_SMD:R_0805_2012Metric {'names': '/DCDC_48Vto12V/', 'tstamps': '/2df709a8-d619-45d7-9a57-d7c9c3fc2729/'}
+  1()=+BATT; 2()=Net-(U7-ULVO)
+R33 8.87k Resistor_SMD:R_0603_1608Metric {'names': '/DCDC_48Vto12V/', 'tstamps': '/2df709a8-d619-45d7-9a57-d7c9c3fc2729/'}
+  1()=+12V; 2()=Net-(U7-FB)
+R34 1k Resistor_SMD:R_0603_1608Metric {'names': '/DCDC_48Vto12V/', 'tstamps': '/2df709a8-d619-45d7-9a57-d7c9c3fc2729/'}
+  2()=GND; 1()=Net-(U7-FB)
+R35 330k Resistor_SMD:R_0805_2012Metric {'names': '/DCDC_48Vto12V/', 'tstamps': '/2df709a8-d619-45d7-9a57-d7c9c3fc2729/'}
+  2()=Net-(C54-Pad1); 1()=Net-(U7-SW)
+TP6 TestPoint TestPoint:TestPoint_Pad_D1.0mm {'names': '/DCDC_48Vto12V/', 'tstamps': '/2df709a8-d619-45d7-9a57-d7c9c3fc2729/'}
+  1(1_1)=Net-(U7-FB)
+TP7 TestPoint TestPoint:TestPoint_Pad_D1.5mm {'names': '/DCDC_48Vto12V/', 'tstamps': '/2df709a8-d619-45d7-9a57-d7c9c3fc2729/'}
+  1(1_1)=Net-(D14-K)
+TP8 TestPoint TestPoint:TestPoint_Pad_D1.5mm {'names': '/DCDC_48Vto12V/', 'tstamps': '/2df709a8-d619-45d7-9a57-d7c9c3fc2729/'}
+  1(1_1)=Net-(U7-SW)
+U7 LM5017MR Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias {'names': '/DCDC_48Vto12V/', 'tstamps': '/2df709a8-d619-45d7-9a57-d7c9c3fc2729/'}
+  2(VIN_2)=+BATT; 1(RTN_1)=GND; 9(RTNPAD_9)=GND; 6(VCC_6)=Net-(D14-K); 7(BST_7)=Net-(U7-BST); 5(FB_5)=Net-(U7-FB); 4(RON_4)=Net-(U7-RON); 8(SW_8)=Net-(U7-SW); 3(ULVO_3)=Net-(U7-ULVO)
+C8 10uF Capacitor_SMD:C_1206_3216Metric {'names': '/DCDC_12Vto5V/', 'tstamps': '/20f0978b-77da-43a4-ac79-102e43ed4a69/'}
+  1()=+12V; 2()=GND
+C9 0.1uF Capacitor_SMD:C_0603_1608Metric {'names': '/DCDC_12Vto5V/', 'tstamps': '/20f0978b-77da-43a4-ac79-102e43ed4a69/'}
+  2()=Net-(U3-BST); 1()=Net-(U3-SW)
+C10 22uF Capacitor_SMD:C_1206_3216Metric {'names': '/DCDC_12Vto5V/', 'tstamps': '/20f0978b-77da-43a4-ac79-102e43ed4a69/'}
+  1()=+5V; 2()=GND
+C11 22uF Capacitor_SMD:C_1206_3216Metric {'names': '/DCDC_12Vto5V/', 'tstamps': '/20f0978b-77da-43a4-ac79-102e43ed4a69/'}
+  1()=+5V; 2()=GND
+L2 4.7uH SRN5040:SRN5040-4R7M {'names': '/DCDC_12Vto5V/', 'tstamps': '/20f0978b-77da-43a4-ac79-102e43ed4a69/'}
+  2(2_2)=+5V; 1(1_1)=Net-(U3-SW)
+U3 AP63205WU Package_TO_SOT_SMD:TSOT-23-6 {'names': '/DCDC_12Vto5V/', 'tstamps': '/20f0978b-77da-43a4-ac79-102e43ed4a69/'}
+  1(FB_1)=+5V; 2(EN_2)=+12V; 3(IN_3)=+12V; 4(GND_4)=GND; 6(BST_6)=Net-(U3-BST); 5(SW_5)=Net-(U3-SW)
+C39 10uF PCM_JLCPCB:C_CASE-A-3216-18(mm) {'names': '/REGULATOR/', 'tstamps': '/9b226d68-3ca3-4dc4-ad73-78321687876a/'}
+  1()=+5V; 2()=GND
+C40 0.1uF Capacitor_SMD:C_0603_1608Metric {'names': '/REGULATOR/', 'tstamps': '/9b226d68-3ca3-4dc4-ad73-78321687876a/'}
+  1()=+5V; 2()=GND
+C41 22uF PCM_JLCPCB:C_CASE-A-3216-18(mm) {'names': '/REGULATOR/', 'tstamps': '/9b226d68-3ca3-4dc4-ad73-78321687876a/'}
+  1()=+3V3; 2()=GND
+C42 0.1uF Capacitor_SMD:C_0603_1608Metric {'names': '/REGULATOR/', 'tstamps': '/9b226d68-3ca3-4dc4-ad73-78321687876a/'}
+  1()=+3V3; 2()=GND
+U4 AMS1117 Package_TO_SOT_SMD:SOT-223-3_TabPin2 {'names': '/REGULATOR/', 'tstamps': '/9b226d68-3ca3-4dc4-ad73-78321687876a/'}
+  2(VO_2)=+3V3; 3(VI_3)=+5V; 1(ADJ_1)=GND
+C17 47nF Capacitor_SMD:C_0805_2012Metric {'names': '/GATE DRIVE/', 'tstamps': '/0a67e02b-39f9-4227-b947-b65d5e3b5ffa/'}
+  2()=Net-(U1-CPH); 1()=Net-(U1-CPL)
+C18 1uF Capacitor_SMD:C_0805_2012Metric {'names': '/GATE DRIVE/', 'tstamps': '/0a67e02b-39f9-4227-b947-b65d5e3b5ffa/'}
+  1()=+BATT; 2()=Net-(U1-VCP)
+C19 0.1uF Capacitor_SMD:C_0603_1608Metric {'names': '/GATE DRIVE/', 'tstamps': '/0a67e02b-39f9-4227-b947-b65d5e3b5ffa/'}
+  1()=+12V; 2()=GND
+C22 22uF Capacitor_SMD:C_1206_3216Metric {'names': '/GATE DRIVE/', 'tstamps': '/0a67e02b-39f9-4227-b947-b65d5e3b5ffa/'}
+  1()=+12V; 2()=GND
+C23 0.1uF Capacitor_SMD:C_0603_1608Metric {'names': '/GATE DRIVE/', 'tstamps': '/0a67e02b-39f9-4227-b947-b65d5e3b5ffa/'}
+  1()=/3.3VA; 2()=GND
+C24 1uF Capacitor_SMD:C_0805_2012Metric {'names': '/GATE DRIVE/', 'tstamps': '/0a67e02b-39f9-4227-b947-b65d5e3b5ffa/'}
+  2()=GND; 1()=Net-(U1-VGLS)
+C37 1uF Capacitor_SMD:C_0805_2012Metric {'names': '/GATE DRIVE/', 'tstamps': '/0a67e02b-39f9-4227-b947-b65d5e3b5ffa/'}
+  2()=GND; 1()=Net-(U1-DVDD)
+C45 2.2nF Capacitor_SMD:C_0603_1608Metric {'names': '/GATE DRIVE/', 'tstamps': '/0a67e02b-39f9-4227-b947-b65d5e3b5ffa/'}
+  1()=/GATE DRIVE/SOA; 2()=GND
+C46 2.2nF Capacitor_SMD:C_0603_1608Metric {'names': '/GATE DRIVE/', 'tstamps': '/0a67e02b-39f9-4227-b947-b65d5e3b5ffa/'}
+  1()=/GATE DRIVE/SOB; 2()=GND
+C47 2.2nF Capacitor_SMD:C_0603_1608Metric {'names': '/GATE DRIVE/', 'tstamps': '/0a67e02b-39f9-4227-b947-b65d5e3b5ffa/'}
+  1()=/GATE DRIVE/SOC; 2()=GND
+C59 22uF Capacitor_SMD:C_1206_3216Metric {'names': '/GATE DRIVE/', 'tstamps': '/0a67e02b-39f9-4227-b947-b65d5e3b5ffa/'}
+  1()=+12V; 2()=GND
+R37 10k Resistor_SMD:R_0603_1608Metric {'names': '/GATE DRIVE/', 'tstamps': '/0a67e02b-39f9-4227-b947-b65d5e3b5ffa/'}
+  1()=+3V3; 2()=/GATE DRIVE/nFAULT
+R38 1k Resistor_SMD:R_0603_1608Metric {'names': '/GATE DRIVE/', 'tstamps': '/0a67e02b-39f9-4227-b947-b65d5e3b5ffa/'}
+  1()=+3V3; 2()=/GATE DRIVE/SDO
+R39 56 Resistor_SMD:R_0603_1608Metric {'names': '/GATE DRIVE/', 'tstamps': '/0a67e02b-39f9-4227-b947-b65d5e3b5ffa/'}
+  2()=/GATE DRIVE/SOA; 1()=Net-(U1-SOA)
+R40 56 Resistor_SMD:R_0603_1608Metric {'names': '/GATE DRIVE/', 'tstamps': '/0a67e02b-39f9-4227-b947-b65d5e3b5ffa/'}
+  2()=/GATE DRIVE/SOB; 1()=Net-(U1-SOB)
+R41 56 Resistor_SMD:R_0603_1608Metric {'names': '/GATE DRIVE/', 'tstamps': '/0a67e02b-39f9-4227-b947-b65d5e3b5ffa/'}
+  2()=/GATE DRIVE/SOC; 1()=Net-(U1-SOC)
+TP9 TestPoint TestPoint:TestPoint_Pad_D1.5mm {'names': '/GATE DRIVE/', 'tstamps': '/0a67e02b-39f9-4227-b947-b65d5e3b5ffa/'}
+  1(1_1)=+12V
+TP11 TestPoint TestPoint:TestPoint_Pad_D1.5mm {'names': '/GATE DRIVE/', 'tstamps': '/0a67e02b-39f9-4227-b947-b65d5e3b5ffa/'}
+  1(1_1)=/3.3VA
+TP12 TestPoint TestPoint:TestPoint_Pad_D1.5mm {'names': '/GATE DRIVE/', 'tstamps': '/0a67e02b-39f9-4227-b947-b65d5e3b5ffa/'}
+  1(1_1)=/GATE DRIVE/nFAULT
+TP13 TestPoint TestPoint:TestPoint_Pad_D1.5mm {'names': '/GATE DRIVE/', 'tstamps': '/0a67e02b-39f9-4227-b947-b65d5e3b5ffa/'}
+  1(1_1)=/GATE DRIVE/ENABLE
+U1 DRV8353FSRTAR footprints:WQFN40_RTA_TEX {'names': '/GATE DRIVE/', 'tstamps': '/0a67e02b-39f9-4227-b947-b65d5e3b5ffa/'}
+  3(VM_3)=+12V; 4(VDRAIN_4)=+BATT; 24(VREF_24)=/3.3VA; 31(ENABLE_31)=/GATE DRIVE/ENABLE; 6(GHA_6)=/GATE DRIVE/GHA; 15(GHB_15)=/GATE DRIVE/GHB; 16(GHC_16)=/GATE DRIVE/GHC; 8(GLA_8)=/GATE DRIVE/GLA; 13(GLB_13)=/GATE DRIVE/GLB; 18(GLC_18)=/GATE DRIVE/GLC; 32(INHA_32)=/GATE DRIVE/INHA; 34(INHB_34)=/GATE DRIVE/INHB; 36(INHC_36)=/GATE DRIVE/INHC; 33(INLA_33)=/GATE DRIVE/INLA; 35(INLB_35)=/GATE DRIVE/INLB; 37(INLC_37)=/GATE DRIVE/INLC; 29(SCLK_29)=/GATE DRIVE/SCLK; 28(SDI_28)=/GATE DRIVE/SDI; 27(SDO_27)=/GATE DRIVE/SDO; 9(SPA_9)=/GATE DRIVE/SPA; 12(SPB_12)=/GATE DRIVE/SPB; 19(SPC_19)=/GATE DRIVE/SPC; 26(NFAULT_26)=/GATE DRIVE/nFAULT; 30(NSCS_30)=/GATE DRIVE/nSCS; 7(SHA_7)=/POWER/U; 14(SHB_14)=/POWER/V; 17(SHC_17)=/POWER/W; 10(SNA_10)=GND; 11(SNB_11)=GND; 20(SNC_20)=GND; 25(AGND_25)=GND; 39(GND_39)=GND; 41(EPAD_41)=GND; 2(CPH_2)=Net-(U1-CPH); 1(CPL_1)=Net-(U1-CPL); 38(DVDD_38)=Net-(U1-DVDD); 23(SOA_23)=Net-(U1-SOA); 22(SOB_22)=Net-(U1-SOB); 21(SOC_21)=Net-(U1-SOC); 5(VCP_5)=Net-(U1-VCP); 40(VGLS_40)=Net-(U1-VGLS)
+C12 330uF Capacitor_THT:CP_Radial_D12.5mm_P5.00mm {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1()=+BATT; 2()=GND
+C13 330uF Capacitor_THT:CP_Radial_D12.5mm_P5.00mm {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1()=+BATT; 2()=GND
+C14 330uF Capacitor_THT:CP_Radial_D12.5mm_P5.00mm {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1()=+BATT; 2()=GND
+C28 C Capacitor_SMD:C_0805_2012Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1()=+BATT; 2()=Net-(C28-Pad2)
+C29 2.2uF Capacitor_SMD:C_1210_3225Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1()=+BATT; 2()=GND
+C33 C Capacitor_SMD:C_0805_2012Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1()=/POWER/U; 2()=Net-(C33-Pad2)
+C34 C Capacitor_SMD:C_0805_2012Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1()=+BATT; 2()=Net-(C34-Pad2)
+C35 C Capacitor_SMD:C_0805_2012Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1()=/POWER/V; 2()=Net-(C35-Pad2)
+C36 2.2uF Capacitor_SMD:C_1210_3225Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1()=+BATT; 2()=GND
+C38 C Capacitor_SMD:C_0805_2012Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1()=+BATT; 2()=Net-(C38-Pad2)
+C43 C Capacitor_SMD:C_0805_2012Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1()=/POWER/W; 2()=Net-(C43-Pad2)
+C44 2.2uF Capacitor_SMD:C_1210_3225Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1()=+BATT; 2()=GND
+C48 2.2uF Capacitor_SMD:C_1210_3225Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1()=+BATT; 2()=GND
+C49 2.2uF Capacitor_SMD:C_1210_3225Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1()=+BATT; 2()=GND
+C57 2.2uF Capacitor_SMD:C_1210_3225Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1()=+BATT; 2()=GND
+D1 SMCJ60A Diode_SMD:D_SMC {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1(K_1)=+BATT; 2(A_2)=GND
+D4 D_Zener Diode_SMD:D_SOD-123 {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  2(A_2)=/POWER/U; 1(K_1)=Net-(D4-K)
+D5 D_Zener Diode_SMD:D_SOD-123 {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  2(A_2)=/POWER/V; 1(K_1)=Net-(D5-K)
+D8 D_Zener Diode_SMD:D_SOD-123 {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  2(A_2)=/GATE DRIVE/SPA; 1(K_1)=Net-(D8-K)
+D9 D_Zener Diode_SMD:D_SOD-123 {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  2(A_2)=/GATE DRIVE/SPB; 1(K_1)=Net-(D9-K)
+D11 D_Zener Diode_SMD:D_SOD-123 {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  2(A_2)=/POWER/W; 1(K_1)=Net-(D11-K)
+D12 D_Zener Diode_SMD:D_SOD-123 {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  2(A_2)=/GATE DRIVE/SPC; 1(K_1)=Net-(D12-K)
+J2 MR60_U Connector_Wire:SolderWirePad_1x01_SMD_5x10mm {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1(Pin_1_1)=/POWER/U
+J7 MR60_V Connector_Wire:SolderWirePad_1x01_SMD_5x10mm {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1(Pin_1_1)=/POWER/V
+J8 MR60_W Connector_Wire:SolderWirePad_1x01_SMD_5x10mm {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1(Pin_1_1)=/POWER/W
+Q1 NMOS TPH2R70AR5:TPH2R70AR5_SOP-Advance-N {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1(D_1)=+BATT; 3(S_3)=/POWER/U; 2(G_2)=Net-(D4-K)
+Q2 NMOS TPH2R70AR5:TPH2R70AR5_SOP-Advance-N {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  3(S_3)=/GATE DRIVE/SPA; 1(D_1)=/POWER/U; 2(G_2)=Net-(D8-K)
+Q3 NMOS TPH2R70AR5:TPH2R70AR5_SOP-Advance-N {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1(D_1)=+BATT; 3(S_3)=/POWER/V; 2(G_2)=Net-(D5-K)
+Q4 NMOS TPH2R70AR5:TPH2R70AR5_SOP-Advance-N {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  3(S_3)=/GATE DRIVE/SPB; 1(D_1)=/POWER/V; 2(G_2)=Net-(D9-K)
+Q5 NMOS TPH2R70AR5:TPH2R70AR5_SOP-Advance-N {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1(D_1)=+BATT; 3(S_3)=/POWER/W; 2(G_2)=Net-(D11-K)
+Q6 NMOS TPH2R70AR5:TPH2R70AR5_SOP-Advance-N {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  3(S_3)=/GATE DRIVE/SPC; 1(D_1)=/POWER/W; 2(G_2)=Net-(D12-K)
+R1 2m Shunt:R_Bourns_CRE2512-FZ-R002E-3 {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1()=/GATE DRIVE/SPA; 2()=GND
+R3 2m Shunt:R_Bourns_CRE2512-FZ-R002E-3 {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1()=/GATE DRIVE/SPB; 2()=GND
+R4 2m Shunt:R_Bourns_CRE2512-FZ-R002E-3 {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1()=/GATE DRIVE/SPC; 2()=GND
+R7 0 Resistor_SMD:R_0603_1608Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1()=/GATE DRIVE/GHA; 2()=Net-(D4-K)
+R8 0 Resistor_SMD:R_0603_1608Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1()=/GATE DRIVE/GHB; 2()=Net-(D5-K)
+R9 10k Resistor_SMD:R_0603_1608Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  2()=/POWER/U; 1()=Net-(D4-K)
+R10 R Resistor_SMD:R_0805_2012Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  2()=/POWER/U; 1()=Net-(C28-Pad2)
+R11 10k Resistor_SMD:R_0603_1608Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  2()=/POWER/V; 1()=Net-(D5-K)
+R12 R Resistor_SMD:R_0805_2012Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  2()=/POWER/V; 1()=Net-(C34-Pad2)
+R15 0 Resistor_SMD:R_0603_1608Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1()=/GATE DRIVE/GLA; 2()=Net-(D8-K)
+R16 0 Resistor_SMD:R_0603_1608Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1()=/GATE DRIVE/GLB; 2()=Net-(D9-K)
+R17 10k Resistor_SMD:R_0603_1608Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  2()=/GATE DRIVE/SPA; 1()=Net-(D8-K)
+R18 R Resistor_SMD:R_0805_2012Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  2()=/GATE DRIVE/SPA; 1()=Net-(C33-Pad2)
+R19 10k Resistor_SMD:R_0603_1608Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  2()=/GATE DRIVE/SPB; 1()=Net-(D9-K)
+R20 R Resistor_SMD:R_0805_2012Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  2()=/GATE DRIVE/SPB; 1()=Net-(C35-Pad2)
+R25 0 Resistor_SMD:R_0603_1608Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1()=/GATE DRIVE/GHC; 2()=Net-(D11-K)
+R26 0 Resistor_SMD:R_0603_1608Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1()=/GATE DRIVE/GLC; 2()=Net-(D12-K)
+R27 10k Resistor_SMD:R_0603_1608Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  2()=/POWER/W; 1()=Net-(D11-K)
+R28 10k Resistor_SMD:R_0603_1608Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  2()=/GATE DRIVE/SPC; 1()=Net-(D12-K)
+R29 R Resistor_SMD:R_0805_2012Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  2()=/POWER/W; 1()=Net-(C38-Pad2)
+R36 R Resistor_SMD:R_0805_2012Metric {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  2()=/GATE DRIVE/SPC; 1()=Net-(C43-Pad2)
+TP22 TestPoint TestPoint:TestPoint_Pad_D1.5mm {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1(1_1)=Net-(D4-K)
+TP23 TestPoint TestPoint:TestPoint_Pad_D1.5mm {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1(1_1)=Net-(D8-K)
+TP24 TestPoint TestPoint:TestPoint_Pad_D1.5mm {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1(1_1)=Net-(D5-K)
+TP25 TestPoint TestPoint:TestPoint_Pad_D1.5mm {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1(1_1)=Net-(D9-K)
+TP26 TestPoint TestPoint:TestPoint_Pad_D1.5mm {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1(1_1)=Net-(D12-K)
+TP27 TestPoint TestPoint:TestPoint_Pad_D1.5mm {'names': '/POWER/', 'tstamps': '/b17ea290-aa8f-44b4-bd09-cb1c5d42034f/'}
+  1(1_1)=Net-(D11-K)

@@ -1,0 +1,97 @@
+[
+  {
+    "file": "\u540d\u79f0\u672a\u8a2d\u5b9a.kicad_sch",
+    "sha256": "6e2c1cfcbe3b11da836fe0082c3d7812ae51f4031ab9db7e20c54a622f6d6733",
+    "mtime": 1795439344.7374988
+  },
+  {
+    "file": "\u30eb\u30fc\u30c8.kicad_sch",
+    "sha256": "19b0b87e189b02edae1e621de5fac4d8898ffaa1ea031986432265e45977ea16",
+    "mtime": 1795439344.737632
+  },
+  {
+    "file": "POWER.kicad_sch",
+    "sha256": "24579d939414251a00644cdb8edc649fdb6ee42536d44845e697edaa40da080d",
+    "mtime": 1795444055.0258176
+  },
+  {
+    "file": "DCDC_12Vto5V.kicad_sch",
+    "sha256": "7556e5baf98a2d46359d9031800f655fb9a844896c6b4d1e8a3e2065a5c32e41",
+    "mtime": 1795444055.0151856
+  },
+  {
+    "file": "CAN.kicad_sch",
+    "sha256": "1ed95b28f3d201ba907cc1c64fd6b38f317761f3a87cd10f0030aac8c7b40df9",
+    "mtime": 1795444055.0290043
+  },
+  {
+    "file": "INA241A2.kicad_sch",
+    "sha256": "95277da391c0e6fdff594b37c5d2e4cc9550b1ba88450738da46c0e800483148",
+    "mtime": 1795439344.7388027
+  },
+  {
+    "file": "g431_md.kicad_sch",
+    "sha256": "35b922de9347e2cfa159ddf594bc86f2054aede2d6412203530d5d6ccfd699a4",
+    "mtime": 1795439344.7393472
+  },
+  {
+    "file": "ene1_md.kicad_sch",
+    "sha256": "9c69c6744c5b0ded57bd66484b1dd273063dbbb5a3661f97d2987643a418bc83",
+    "mtime": 1795444055.0058172
+  },
+  {
+    "file": "MCU.kicad_sch",
+    "sha256": "10643cb9d6347f3a74cc32a11a07ee0acd4fe5d0cc45f264c09a1722b235dcf6",
+    "mtime": 1795444055.0178175
+  },
+  {
+    "file": "REGULATOR.kicad_sch",
+    "sha256": "770cb28a4f13b832454f0edcbaf3b4a402a0d7bb4644e2fd3aeb258d2370d0a2",
+    "mtime": 1795444055.0319257
+  },
+  {
+    "file": "GATEDRIVER.kicad_sch",
+    "sha256": "8fe260cffefc1fa669f44e1fa8eb662332dd027d0b882dac1004edce63d099f0",
+    "mtime": 1795444055.0208175
+  },
+  {
+    "file": "untitled.kicad_sch",
+    "sha256": "51b305a681305538d710e668a7043935ed740233d375dfd6d36a9b83e9720774",
+    "mtime": 1795439344.7410035
+  },
+  {
+    "file": "DCDC.kicad_sch",
+    "sha256": "30155e5b7f1043a06515a3b41cba06e096513b9d4b278a7bb025224e5078b121",
+    "mtime": 1795444055.0118172
+  },
+  {
+    "file": "ene1_md.kicad_pcb",
+    "sha256": "e3d4f921e1a1663864ecf3e1d0d96b1899bb26cd66b7bca82dd0f8fae42b550a",
+    "mtime": 1795444133.127801
+  },
+  {
+    "file": "ene1_md.kicad_pro",
+    "sha256": "eaee6034b91902f4dc68c360d41881c5be19a448ca2caedb395d3ad03da2aaae",
+    "mtime": 1795442664.3629537
+  },
+  {
+    "file": "sym-lib-table",
+    "sha256": "830fc18f8291e12f80dd7689a6f7d1a4c9b4e029c525e903a131a96ee8b8a0fd",
+    "mtime": 1795439344.7388875
+  },
+  {
+    "file": "fp-lib-table",
+    "sha256": "c02c0a48bf19e0689b94db033de0a243c24227b2d7536ae6b1940406f6ef1db9",
+    "mtime": 1795439344.740147
+  },
+  {
+    "file": "md_parts.kicad_sym",
+    "sha256": "0efd6758908fb18fa1bfc79f595d2823af08ec65d196704b1f80483ea067db83",
+    "mtime": 1795439344.7387047
+  },
+  {
+    "file": "CTM1051AMG.kicad_sym",
+    "sha256": "09c21b450d85dd75e20fa62da4be6f3d277a76b7bceb50e804b544c449be2fa4",
+    "mtime": 1795439344.7409148
+  }
+]

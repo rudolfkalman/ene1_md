@@ -1,0 +1,608 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-23T23:33:50",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "key": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "key": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "key": "silk_edge_clearance"
+        },
+        {
+            "description": "Text height out of range",
+            "key": "text_height"
+        },
+        {
+            "description": "Text thickness out of range",
+            "key": "text_thickness"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "ene1_md.kicad_pcb",
+    "unconnected_items": [
+        {
+            "comment": "",
+            "description": "Missing connection between items",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Pad 2 [+3V3] of U4 on F.Cu",
+                    "pos": {
+                        "x": 111.861773,
+                        "y": 97.363604
+                    },
+                    "uuid": "42125664-9fa4-47b7-b6b0-7a5683b9d54d"
+                },
+                {
+                    "description": "Via [+3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 108.514511,
+                        "y": 97.693044
+                    },
+                    "uuid": "9f741453-e4fe-437b-b16e-de1560a4ad5d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [GND] of U5 on F.Cu",
+                    "pos": {
+                        "x": 132.291787,
+                        "y": 126.629957
+                    },
+                    "uuid": "7696e453-57bd-45da-a596-f76c20790444"
+                },
+                {
+                    "description": "Pad 1 [+BATT] of U5 on F.Cu",
+                    "pos": {
+                        "x": 132.941787,
+                        "y": 126.629957
+                    },
+                    "uuid": "8ad29669-d9aa-4f9a-b49c-3dd8158d6c13"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 6 [/3.3VA] of U5 on F.Cu",
+                    "pos": {
+                        "x": 131.641787,
+                        "y": 130.854957
+                    },
+                    "uuid": "2e4bb8bf-7084-4f52-9e10-e70f192104af"
+                },
+                {
+                    "description": "Pad 5 [/MCU/ADC1_IN11] of U5 on F.Cu",
+                    "pos": {
+                        "x": 130.991787,
+                        "y": 130.854957
+                    },
+                    "uuid": "e865f3ac-31a6-4329-acf1-65ace1f35ff2"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 8 [Net-(J1-Pin_1)] of U5 on F.Cu",
+                    "pos": {
+                        "x": 132.941787,
+                        "y": 130.854957
+                    },
+                    "uuid": "3557a40e-c795-43b7-b9d8-e889934be71a"
+                },
+                {
+                    "description": "Pad 7 [/3.3VA] of U5 on F.Cu",
+                    "pos": {
+                        "x": 132.291787,
+                        "y": 130.854957
+                    },
+                    "uuid": "dd575992-f793-40e1-b637-ff77125d4895"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Footprint 'D_SOD-123' does not match copy in library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D5",
+                    "pos": {
+                        "x": 152.464511,
+                        "y": 93.583044
+                    },
+                    "uuid": "1553879e-2da6-4acd-a0e7-d4cff8bc8b32"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'ZLG_CTM1051AMG_12.8x10.2mm_P2.54mm' does not match copy in library 'CTM1051AMG'",
+            "items": [
+                {
+                    "description": "Footprint U9",
+                    "pos": {
+                        "x": 123.514511,
+                        "y": 72.523043
+                    },
+                    "uuid": "26e2b4cb-c2d5-4687-ab3e-dbd33f21d904"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LQFP-48_7x7mm_P0.5mm' does not match copy in library 'Package_QFP'",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 118.014511,
+                        "y": 83.593044
+                    },
+                    "uuid": "2e9710c0-0c36-42ce-80e9-e50eca69cae2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'CP_Radial_D12.5mm_P5.00mm' does not match copy in library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint C12",
+                    "pos": {
+                        "x": 158.514511,
+                        "y": 90.443044
+                    },
+                    "uuid": "338fd951-b16d-472a-ac17-481e27a81634"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'L_Wurth_WE-PD-1210' does not match copy in library 'Inductor_SMD_Wurth'",
+            "items": [
+                {
+                    "description": "Footprint L1",
+                    "pos": {
+                        "x": 115.402814,
+                        "y": 120.496913
+                    },
+                    "uuid": "44b277fb-68f0-4d45-a8ec-15b9e22acb22"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinHeader_1x05_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint ST-LINK1",
+                    "pos": {
+                        "x": 100.264511,
+                        "y": 81.563044
+                    },
+                    "uuid": "48f2736f-d3bd-4ad1-8cf8-8f7038e367b1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Shunt'",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 140.68289,
+                        "y": 115.968103
+                    },
+                    "uuid": "60097de0-4085-4185-b3dd-b99e944676fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Shunt'",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 140.694748,
+                        "y": 101.074747
+                    },
+                    "uuid": "6f6fb628-b5cb-4fd7-b7eb-469a5f906eb5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Shunt'",
+            "items": [
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 140.68816,
+                        "y": 80.079242
+                    },
+                    "uuid": "70886c6a-c4a1-48d4-89fd-a257eb0ad1e4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'Crystal_SMD_3225-4Pin_3.2x2.5mm' does not match copy in library 'Crystal'",
+            "items": [
+                {
+                    "description": "Footprint Y1",
+                    "pos": {
+                        "x": 109.502012,
+                        "y": 83.492065
+                    },
+                    "uuid": "8700526c-81b8-4572-8367-73ea87afa065"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Shunt'",
+            "items": [
+                {
+                    "description": "Footprint R46",
+                    "pos": {
+                        "x": 136.166788,
+                        "y": 128.792458
+                    },
+                    "uuid": "8e782d63-fd74-4c17-8790-3446cc4efc35"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical' does not match copy in library 'Connector_JST'",
+            "items": [
+                {
+                    "description": "Footprint J5",
+                    "pos": {
+                        "x": 130.014511,
+                        "y": 77.193044
+                    },
+                    "uuid": "a10864d7-aa07-4060-9a4b-663242357a27"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias' does not match copy in library 'Package_SO'",
+            "items": [
+                {
+                    "description": "Footprint U7",
+                    "pos": {
+                        "x": 114.561953,
+                        "y": 133.629499
+                    },
+                    "uuid": "c5074bc5-92e4-4318-9358-9cb8f8c3d8e0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical' does not match copy in library 'Connector_JST'",
+            "items": [
+                {
+                    "description": "Footprint J4",
+                    "pos": {
+                        "x": 101.664511,
+                        "y": 98.953044
+                    },
+                    "uuid": "d22f7290-6fa0-4e8f-84d7-5452f53ff0cd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'D_SOD-123' does not match copy in library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D4",
+                    "pos": {
+                        "x": 150.360936,
+                        "y": 125.441019
+                    },
+                    "uuid": "ddcb1f6b-f889-4b45-8a15-b9ea97b70602"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical' does not match copy in library 'Connector_JST'",
+            "items": [
+                {
+                    "description": "Footprint J9",
+                    "pos": {
+                        "x": 106.264511,
+                        "y": 73.943044
+                    },
+                    "uuid": "f97f14fc-512e-4b46-b59c-a28ad044b3ad"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'WQFN40_RTA_TEX' does not match copy in library 'footprints'",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 132.014322,
+                        "y": 91.889444
+                    },
+                    "uuid": "fd9d90fd-fbff-4968-b423-e265db5e34c7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "comment": "",
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1944 mm)",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Pad A1 [GND] of J3 on F.Cu",
+                    "pos": {
+                        "x": 105.585895,
+                        "y": 59.3948
+                    },
+                    "uuid": "5e277394-ab64-4577-b182-eebd0e713388"
+                },
+                {
+                    "description": "NPTH pad of J3",
+                    "pos": {
+                        "x": 104.510895,
+                        "y": 59.7048
+                    },
+                    "uuid": "f571394a-b2b5-4357-8a33-811bccc2aa6d"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "comment": "",
+            "description": "Items shorting two nets (nets unconnected-(J3-VBUS-PadA4)_1 and unconnected-(J3-VBUS-PadA4)_3)",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Pad A4 [unconnected-(J3-VBUS-PadA4)_1] of J3 on F.Cu",
+                    "pos": {
+                        "x": 105.585895,
+                        "y": 60.1948
+                    },
+                    "uuid": "4de70eef-4b45-41de-b981-71b348ddc174"
+                },
+                {
+                    "description": "Pad B9 [unconnected-(J3-VBUS-PadA4)_3] of J3 on F.Cu",
+                    "pos": {
+                        "x": 105.585895,
+                        "y": 60.1948
+                    },
+                    "uuid": "d02730f6-697a-4181-a196-dafbc11dae11"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "comment": "",
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1944 mm)",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Pad A12 [GND] of J3 on F.Cu",
+                    "pos": {
+                        "x": 105.585895,
+                        "y": 65.7948
+                    },
+                    "uuid": "48d54e1a-d9df-4218-bea0-db14ee1fce6c"
+                },
+                {
+                    "description": "NPTH pad of J3",
+                    "pos": {
+                        "x": 104.510895,
+                        "y": 65.4848
+                    },
+                    "uuid": "c0543a4b-7c4b-4181-a3b9-0ebb32ef721e"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "comment": "",
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1944 mm)",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Pad B1 [GND] of J3 on F.Cu",
+                    "pos": {
+                        "x": 105.585895,
+                        "y": 65.7948
+                    },
+                    "uuid": "87406c51-0710-430d-9106-1b161558ca8c"
+                },
+                {
+                    "description": "NPTH pad of J3",
+                    "pos": {
+                        "x": 104.510895,
+                        "y": 65.4848
+                    },
+                    "uuid": "c0543a4b-7c4b-4181-a3b9-0ebb32ef721e"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "comment": "",
+            "description": "Items shorting two nets (nets unconnected-(J3-VBUS-PadA4) and unconnected-(J3-VBUS-PadA4)_2)",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Pad B4 [unconnected-(J3-VBUS-PadA4)] of J3 on F.Cu",
+                    "pos": {
+                        "x": 105.585895,
+                        "y": 64.9948
+                    },
+                    "uuid": "4dd92d7c-5d49-474d-a985-258eacb5bda0"
+                },
+                {
+                    "description": "Pad A9 [unconnected-(J3-VBUS-PadA4)_2] of J3 on F.Cu",
+                    "pos": {
+                        "x": 105.585895,
+                        "y": 64.9948
+                    },
+                    "uuid": "5c67cb52-2d5b-4d79-8abb-2a879540dbec"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "comment": "",
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1944 mm)",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Pad B12 [GND] of J3 on F.Cu",
+                    "pos": {
+                        "x": 105.585895,
+                        "y": 59.3948
+                    },
+                    "uuid": "33ecd855-a616-41ad-9a04-f6927fe57516"
+                },
+                {
+                    "description": "NPTH pad of J3",
+                    "pos": {
+                        "x": 104.510895,
+                        "y": 59.7048
+                    },
+                    "uuid": "f571394a-b2b5-4357-8a33-811bccc2aa6d"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "comment": "",
+            "description": "Front solder mask aperture bridges items with different nets",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Pad A4 [unconnected-(J3-VBUS-PadA4)_1] of J3 on F.Cu",
+                    "pos": {
+                        "x": 105.585895,
+                        "y": 60.1948
+                    },
+                    "uuid": "4de70eef-4b45-41de-b981-71b348ddc174"
+                },
+                {
+                    "description": "Pad B9 [unconnected-(J3-VBUS-PadA4)_3] of J3 on F.Cu",
+                    "pos": {
+                        "x": 105.585895,
+                        "y": 60.1948
+                    },
+                    "uuid": "d02730f6-697a-4181-a196-dafbc11dae11"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "comment": "",
+            "description": "Front solder mask aperture bridges items with different nets",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Pad A9 [unconnected-(J3-VBUS-PadA4)_2] of J3 on F.Cu",
+                    "pos": {
+                        "x": 105.585895,
+                        "y": 64.9948
+                    },
+                    "uuid": "5c67cb52-2d5b-4d79-8abb-2a879540dbec"
+                },
+                {
+                    "description": "Pad B4 [unconnected-(J3-VBUS-PadA4)] of J3 on F.Cu",
+                    "pos": {
+                        "x": 105.585895,
+                        "y": 64.9948
+                    },
+                    "uuid": "4dd92d7c-5d49-474d-a985-258eacb5bda0"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        }
+    ]
+}

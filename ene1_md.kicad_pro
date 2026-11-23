@@ -196,7 +196,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.2,
+        "min_track_width": 0.15,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.005,
@@ -252,6 +252,7 @@
       "track_widths": [
         0.0,
         0.1,
+        0.15,
         0.5,
         1.0
       ],
@@ -609,6 +610,25 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "MCU_Signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -620,6 +640,134 @@
       {
         "netclass": "Default",
         "pattern": "CAN_P"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/CAN/CAN_Rx"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/CAN/CAN_Tx"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/GATE DRIVE/ENABLE"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/GATE DRIVE/INHA"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/GATE DRIVE/INHB"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/GATE DRIVE/INHC"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/GATE DRIVE/INLA"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/GATE DRIVE/INLB"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/GATE DRIVE/INLC"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/GATE DRIVE/SCLK"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/GATE DRIVE/SDI"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/GATE DRIVE/SDO"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/GATE DRIVE/SOA"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/GATE DRIVE/SOB"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/GATE DRIVE/SOC"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/GATE DRIVE/nFAULT"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/GATE DRIVE/nSCS"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/MCU/ADC1_IN11"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/MCU/ADC1_IN4"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/MCU/ADC2_IN12"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/MCU/ADC2_IN14"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/MCU/LED1"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/MCU/LED2"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/MCU/NRST"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/MCU/SWCLK"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/MCU/SWDIO"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/MCU/TIM2_CH1"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/MCU/TIM2_CH2"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "/MCU/TIM2_CH3"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "Net-(U1-SOA)"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "Net-(U1-SOB)"
+      },
+      {
+        "netclass": "MCU_Signal",
+        "pattern": "Net-(U1-SOC)"
       }
     ]
   },
@@ -892,7 +1040,7 @@
         "uuid": "0ee349df-6add-4e50-89fd-464939bc0755"
       }
     ],
-    "used_designators": "#FLG5,#FLG9-12,#PWR1-11,#PWR13,#PWR16,#PWR20,#PWR25,#PWR28,#PWR32-34,#PWR36,#PWR39-41,#PWR44,#PWR46,#PWR51-55,#PWR60,#PWR62-67,#PWR71,#PWR73,#PWR76,#PWR80,#PWR84-90,C1-16,C20-21,C25-36,C39-42,C50-56,D2-12,D14,FB1,J1-3,J5,J9,JP1,L1,PWR1,Q1-6,R1-36,ST\\-LINK1,SW1,U2,U4,U7,U9,Y1",
+    "used_designators": "#FLG5,#FLG9-12,#PWR1-11,#PWR13,#PWR16,#PWR20,#PWR25,#PWR28,#PWR32-34,#PWR36,#PWR39-41,#PWR44,#PWR46,#PWR51-55,#PWR60,#PWR62-67,#PWR71,#PWR73,#PWR76,#PWR80,#PWR84-90,C1-16,C20-21,C25-36,C39-42,C50-56,D2-12,D14,FB1,J1-3,J5,J9,JP1,L1,PWR1,Q1-6,R1-36,R50,ST\\-LINK1,SW1,U2,U4,U7,U9,Y1",
     "variants": []
   },
   "sheets": [

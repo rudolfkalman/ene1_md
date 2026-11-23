@@ -2795,6 +2795,12 @@
 		(uuid "20d660fd-3783-49cc-b468-a084aad5c6a9")
 	)
 	(junction
+		(at 105.41 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27ac2f25-dfa9-4848-a9ed-d84e58767161")
+	)
+	(junction
 		(at 48.26 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2960,7 +2966,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 95.25) (xy 107.95 95.25)
+			(xy 97.79 95.25) (xy 105.41 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3730,6 +3736,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 95.25) (xy 107.95 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e0e13e-f471-4e17-be7b-18ad35069474")
+	)
+	(wire
+		(pts
 			(xy 40.64 87.63) (xy 44.45 87.63)
 		)
 		(stroke
@@ -4200,7 +4216,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 96.52 95.25 0)
+		(at 92.71 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4210,7 +4226,7 @@
 		(dnp no)
 		(uuid "00376388-5ed5-4bef-ade7-3851ad29ae3b")
 		(property "Reference" "J5"
-			(at 97.155 87.63 0)
+			(at 93.345 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4220,7 +4236,7 @@
 			)
 		)
 		(property "Value" "Accelerator"
-			(at 93.98 95.25 90)
+			(at 90.17 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4230,7 +4246,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
-			(at 96.52 95.25 0)
+			(at 92.71 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4241,7 +4257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 95.25 0)
+			(at 92.71 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4252,7 +4268,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 96.52 95.25 0)
+			(at 92.71 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4354,6 +4370,83 @@
 			(project "ene1_md"
 				(path "/0ee349df-6add-4e50-89fd-464939bc0755"
 					(reference "TP32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105.41 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "09ff9d03-bcf0-43c4-a7cc-e2c765e43a4f")
+		(property "Reference" "#PWR036"
+			(at 105.41 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.156 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c54baf92-e4a9-46e2-8db9-6f1a6d488c4d")
+		)
+		(instances
+			(project "ene1_md"
+				(path "/0ee349df-6add-4e50-89fd-464939bc0755"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -6029,10 +6122,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "53fb0587-d7a1-466c-8dd8-14fa75b2a97b")
 		(property "Reference" "U5"
-			(at 90.17 101.5298 0)
+			(at 71.12 98.806 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6042,7 +6134,7 @@
 			)
 		)
 		(property "Value" "INA241A2xDGK"
-			(at 90.17 104.0698 0)
+			(at 74.93 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6511,7 +6603,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 97.79 0)
+		(at 97.79 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6519,10 +6611,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "63d90150-e5a4-4820-be00-beb1c4519642")
 		(property "Reference" "#PWR030"
-			(at 101.6 104.14 0)
+			(at 97.79 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6533,7 +6624,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 102.87 0)
+			(at 100.584 100.838 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6543,7 +6634,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 97.79 0)
+			(at 97.79 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6554,7 +6645,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 97.79 0)
+			(at 97.79 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6565,7 +6656,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 97.79 0)
+			(at 97.79 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6816,6 +6907,87 @@
 			(project "ene1_md"
 				(path "/0ee349df-6add-4e50-89fd-464939bc0755"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 105.41 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "73bfe5e0-f465-46a4-ba86-9a781861289a")
+		(property "Reference" "R50"
+			(at 103.632 99.568 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 105.41 99.314 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 105.41 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 105.41 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "719f7f9e-4610-453c-a98a-c5257152aaaa")
+		)
+		(pin "2"
+			(uuid "7ff236b6-ca97-4e28-a616-cac5a54cd786")
+		)
+		(instances
+			(project "ene1_md"
+				(path "/0ee349df-6add-4e50-89fd-464939bc0755"
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -9013,7 +9185,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 101.6 92.71 0)
+		(at 97.79 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9024,7 +9196,7 @@
 		(fields_autoplaced yes)
 		(uuid "db2bc926-9c7e-4055-ad2f-43d54921ed65")
 		(property "Reference" "#PWR029"
-			(at 101.6 96.52 0)
+			(at 97.79 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9035,7 +9207,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 101.6 87.63 0)
+			(at 97.79 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9045,7 +9217,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 92.71 0)
+			(at 97.79 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9056,7 +9228,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 92.71 0)
+			(at 97.79 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9067,7 +9239,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 101.6 92.71 0)
+			(at 97.79 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
