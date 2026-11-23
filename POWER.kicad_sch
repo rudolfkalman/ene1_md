@@ -1545,18 +1545,6 @@
 		(uuid "0b1bae62-c8eb-4091-aedb-5ab2e57fafb2")
 	)
 	(junction
-		(at 250.19 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0bc952e4-11b4-4f52-9dcf-d416646f7bf2")
-	)
-	(junction
-		(at 250.19 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c89bb45-f85e-4a40-a357-f1ecf59bea41")
-	)
-	(junction
 		(at 189.23 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1629,13 +1617,19 @@
 		(uuid "50b09dc1-c86a-47cf-be73-ecdb42fc618c")
 	)
 	(junction
+		(at 241.3 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "522ae3c9-1459-4b49-828b-87f8bcd809e9")
+	)
+	(junction
 		(at 105.41 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55f6a2fa-06cc-4e1c-97af-4ee50a0677e8")
 	)
 	(junction
-		(at 241.3 72.39)
+		(at 236.22 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56f6fc3d-0e23-4a73-b641-a5bd66de9f1a")
@@ -1761,6 +1755,12 @@
 		(uuid "9bb5087a-829d-45f4-b1ec-ec25c4bfd0df")
 	)
 	(junction
+		(at 241.3 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3d32024-30b9-410b-a0f0-11cc0a27c18b")
+	)
+	(junction
 		(at 113.03 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1839,7 +1839,7 @@
 		(uuid "e6eaff9a-38c3-4bd5-89c3-4f955e5feb57")
 	)
 	(junction
-		(at 241.3 80.01)
+		(at 236.22 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee341a9a-5259-44be-8d70-5c9fe6c4ee7c")
@@ -1973,16 +1973,6 @@
 			(type default)
 		)
 		(uuid "11036482-4396-4674-a5aa-d6fcbcd73268")
-	)
-	(wire
-		(pts
-			(xy 250.19 80.01) (xy 257.81 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1160234a-cccc-4fd8-bb72-0beb9d9a2aa2")
 	)
 	(wire
 		(pts
@@ -2166,6 +2156,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 80.01) (xy 247.65 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bf2d7f0-7093-4b36-929d-318a2e46c27a")
+	)
+	(wire
+		(pts
 			(xy 113.03 72.39) (xy 113.03 78.74)
 		)
 		(stroke
@@ -2256,16 +2256,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 80.01) (xy 250.19 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43553f04-6cd9-40d9-b2c4-630e558272ab")
-	)
-	(wire
-		(pts
 			(xy 105.41 96.52) (xy 113.03 96.52)
 		)
 		(stroke
@@ -2283,16 +2273,6 @@
 			(type default)
 		)
 		(uuid "49ef850e-ae12-4668-98bc-86b7d8b5fe71")
-	)
-	(wire
-		(pts
-			(xy 232.41 72.39) (xy 241.3 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d0863e1-892a-4e48-a700-7a3b7fb6485c")
 	)
 	(wire
 		(pts
@@ -2596,7 +2576,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 80.01) (xy 232.41 80.01)
+			(xy 223.52 80.01) (xy 241.3 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2683,16 +2663,6 @@
 			(type default)
 		)
 		(uuid "88fb99ad-6b62-4395-bb91-d6a93dcfebbb")
-	)
-	(wire
-		(pts
-			(xy 232.41 80.01) (xy 241.3 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8993496d-1044-4979-8801-1396e24ce892")
 	)
 	(wire
 		(pts
@@ -3026,7 +2996,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 72.39) (xy 232.41 72.39)
+			(xy 223.52 72.39) (xy 241.3 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3043,16 +3013,6 @@
 			(type default)
 		)
 		(uuid "ccd6f284-a9b9-460e-b32d-2ca7a93c790a")
-	)
-	(wire
-		(pts
-			(xy 241.3 72.39) (xy 250.19 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd9d2041-5c5c-4348-a898-fd47955ba54a")
 	)
 	(wire
 		(pts
@@ -3096,7 +3056,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 69.85) (xy 241.3 72.39)
+			(xy 236.22 69.85) (xy 236.22 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3126,7 +3086,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 80.01) (xy 241.3 82.55)
+			(xy 236.22 80.01) (xy 236.22 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3143,6 +3103,16 @@
 			(type default)
 		)
 		(uuid "d947f62e-d325-4097-ab06-87b7daf24891")
+	)
+	(wire
+		(pts
+			(xy 241.3 72.39) (xy 247.65 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da703caf-4767-4f14-a59e-10cb037aff97")
 	)
 	(wire
 		(pts
@@ -3253,16 +3223,6 @@
 			(type default)
 		)
 		(uuid "f3e1d8f5-41e4-489f-b8a7-e07e36cd32c2")
-	)
-	(wire
-		(pts
-			(xy 250.19 72.39) (xy 257.81 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f69bede2-14a1-46a8-ba23-c435b243756a")
 	)
 	(wire
 		(pts
@@ -3405,7 +3365,7 @@
 		(uuid "9735e114-4869-4916-b9fc-c7800461d7d5")
 	)
 	(label "Vdrain"
-		(at 241.3 69.85 0)
+		(at 236.22 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5625,7 +5585,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 257.81 76.2 270)
+		(at 247.65 76.2 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5636,7 +5596,7 @@
 		(fields_autoplaced yes)
 		(uuid "667b8612-056d-45c9-9d4c-5bd0c0091e27")
 		(property "Reference" "D1"
-			(at 260.35 74.9299 90)
+			(at 250.19 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5647,7 +5607,7 @@
 			)
 		)
 		(property "Value" "SMCJ60A"
-			(at 260.35 77.4699 90)
+			(at 250.19 77.4699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5658,7 +5618,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMC"
-			(at 257.81 76.2 0)
+			(at 247.65 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5669,7 +5629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 76.2 0)
+			(at 247.65 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5680,7 +5640,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 257.81 76.2 0)
+			(at 247.65 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5949,7 +5909,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.3 82.55 0)
+		(at 236.22 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5959,7 +5919,7 @@
 		(dnp no)
 		(uuid "7c184887-144c-4897-90c1-50b4c9d916bc")
 		(property "Reference" "#PWR028"
-			(at 241.3 88.9 0)
+			(at 236.22 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5970,7 +5930,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 244.348 85.598 0)
+			(at 239.268 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5980,7 +5940,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 82.55 0)
+			(at 236.22 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5991,7 +5951,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 82.55 0)
+			(at 236.22 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6002,7 +5962,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 82.55 0)
+			(at 236.22 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8290,87 +8250,6 @@
 			(project "ene1_md"
 				(path "/0ee349df-6add-4e50-89fd-464939bc0755/b17ea290-aa8f-44b4-bd09-cb1c5d42034f"
 					(reference "TP25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 250.19 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ce25ef4f-5d5c-4108-86fe-2292412f59fa")
-		(property "Reference" "C15"
-			(at 243.84 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330uF"
-			(at 243.586 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
-			(at 251.1552 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 250.19 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cd41b567-b18f-4635-a2bf-ff3c0eac35a1")
-		)
-		(pin "1"
-			(uuid "d2bfb1b9-e0d5-4e44-916e-3a284ffa3631")
-		)
-		(instances
-			(project "ene1_md"
-				(path "/0ee349df-6add-4e50-89fd-464939bc0755/b17ea290-aa8f-44b4-bd09-cb1c5d42034f"
-					(reference "C15")
 					(unit 1)
 				)
 			)
