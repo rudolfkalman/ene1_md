@@ -60,10 +60,10 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -77,6 +77,18 @@
         }
       ],
       "drc_exclusions": [
+        [
+          "clearance|131516787|131542457|2e4bb8bf-7084-4f52-9e10-e70f192104af|e865f3ac-31a6-4329-acf1-65ace1f35ff2",
+          ""
+        ],
+        [
+          "clearance|132416787|127317457|7696e453-57bd-45da-a596-f76c20790444|8ad29669-d9aa-4f9a-b49c-3dd8158d6c13",
+          ""
+        ],
+        [
+          "clearance|132816787|131542457|3557a40e-c795-43b7-b9d8-e889934be71a|dd575992-f793-40e1-b637-ff77125d4895",
+          ""
+        ],
         [
           "hole_clearance|105160895|59544800|33ecd855-a616-41ad-9a04-f6927fe57516|f571394a-b2b5-4357-8a33-811bccc2aa6d",
           ""

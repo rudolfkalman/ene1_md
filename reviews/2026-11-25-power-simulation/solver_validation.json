@@ -1,0 +1,20 @@
+[
+  {
+    "check": "1 mOhm || 2 mOhm",
+    "actual_ohm": 0.0006666666666666666,
+    "expected_ohm": 0.0006666666666666666,
+    "relative_error": 0.0
+  },
+  {
+    "check": "40 x 10 mm, 35 um sheet",
+    "actual_ohm": 0.001970285714286375,
+    "expected_ohm": 0.0019702857142857148,
+    "relative_error": 3.3506530883187224e-13
+  },
+  {
+    "check": "uniform thermal plate 1 W",
+    "actual_max_K": 5.000000005150974,
+    "expected_K": 5.0,
+    "relative_error": 1.0301948183411014e-09
+  }
+]
